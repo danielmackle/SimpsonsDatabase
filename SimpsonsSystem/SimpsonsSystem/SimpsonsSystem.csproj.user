@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Frontend\Forms\FrmCreateWeddingList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frontend\Forms\FrmReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frontend\Forms\FrmStockControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frontend\Forms\FrmOrderFromWeddingList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frontend\Forms\FrmTitlePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Frontend\Forms\FrmCreateWeddingList.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Frontend\Forms\FrmOrderFromWeddingList.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Frontend\Forms\FrmStockControl.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Frontend\Forms\FrmTitlePage.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Backend\Classes\Reports\DatWeddingList.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+</Project>
